@@ -1,6 +1,7 @@
 #no .a
 *.a
-#ignore build
+#ignore bin & obj
+obj/
 bin/
 #no codeblocks files.
 *.cbp

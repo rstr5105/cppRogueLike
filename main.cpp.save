@@ -3,6 +3,7 @@
 #include <iostream>
 #include <curses.h>
 #include <string>
+
 //Local includes
 #include <../include/main.h>
 #include <game.h>
