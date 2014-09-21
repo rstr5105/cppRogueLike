@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1411335429 source:/home/irinix/Code/C++/rogueLike/rogueLike/main.cpp
+	<iostream>
+	<curses.h>
+	<string>
+	<../include/main.h>
+	<game.h>
+
+1411004091 /home/irinix/Code/C++/rogueLike/rogueLike/include/main.h
+
+1411311400 /home/irinix/Code/C++/rogueLike/rogueLike/include/game.h
+	<curses.h>
+	"unit.h"
+	"player.h"
+
+1411335083 source:/home/irinix/Code/C++/rogueLike/rogueLike/src/game.cpp
+	"game.h"
+	<curses.h>
+
+1411010014 source:/home/irinix/Code/C++/rogueLike/rogueLike/src/screen.cpp
+	"screen.h"
+	<curses.h>
+
+1411130220 /home/irinix/Code/C++/rogueLike/rogueLike/include/screen.h
+	<curses.h>
+
+1411173205 source:/home/irinix/Code/C++/rogueLike/rogueLike/src/enemy.cpp
+	"../include/unit.h"
+	"enemy.h"
+
+1411311917 /home/irinix/Code/C++/rogueLike/rogueLike/include/unit.h
+
+1411173235 /home/irinix/Code/C++/rogueLike/rogueLike/include/enemy.h
+	"../include/unit.h"
+
+1411312368 source:/home/irinix/Code/C++/rogueLike/rogueLike/src/player.cpp
+	"../include/unit.h"
+	"player.h"
+
+1411312368 /home/irinix/Code/C++/rogueLike/rogueLike/include/player.h
+	"../include/unit.h"
+
+1411173206 source:/home/irinix/Code/C++/rogueLike/rogueLike/src/unit.cpp
+	"../include/unit.h"
+
