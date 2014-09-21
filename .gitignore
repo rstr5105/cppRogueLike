@@ -1,0 +1,8 @@
+#no .a
+*.a
+#ignore build
+bin/
+#no codeblocks files.
+*.cbp
+*.depend
+*.save
