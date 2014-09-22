@@ -56,6 +56,9 @@ class Unit {
 		int getY(){
 			return posY;
 		}
+		char* getSymbol(){
+			return symbol;
+		}
 	protected:
 		int m_health;
 		int m_mana;
@@ -69,6 +72,7 @@ class Unit {
 		int posY;
 		int ammo;
 		int gold;
+		char* symbol;
 	private:
 
 };
