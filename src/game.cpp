@@ -61,7 +61,7 @@ void Game::update() {
 	refresh();
 }
 void Game::drawMapArea(int rows, int cols) {
-	mvprintw(p.getY(), p.getX(), "@");
+	mvprintw(p.getY(), p.getX(), p.getSymbol());
 }
 
 void Game::drawStatsArea(int rows, int cols) {

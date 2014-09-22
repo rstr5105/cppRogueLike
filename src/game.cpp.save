@@ -9,6 +9,7 @@ Game::Game(WINDOW* win) {
 void Game::GameLoop() {
 	running = true;
 	getmaxyx(stdscr, oldRows, oldCols);
++
 	while(running) {
 			//check for window resize
 			getmaxyx(stdscr, rows, cols);
@@ -17,7 +18,9 @@ void Game::GameLoop() {
 					update();
 				}
 			handleInput();
+			update();
 		}
+
 
 }
 
@@ -30,7 +33,6 @@ void Game::handleInput() {
 	switch(ch) {
 			case KEY_F(1):
 				running=false;
-				endwin();
 				break;
 			case 'q':
 				p.addGold(10);

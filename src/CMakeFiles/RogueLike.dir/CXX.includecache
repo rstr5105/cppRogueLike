@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/irinix/Code/C++/rogueLike/rogueLike/src/main.cpp
+iostream
+-
+curses.h
+-
+string
+-
+../include/main.h
+-
+game.h
+-
+

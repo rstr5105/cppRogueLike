@@ -4,6 +4,7 @@
 
 player::player()
 {
+	symbol = "@";
 	level = 1;
 	gold = 100;
 
