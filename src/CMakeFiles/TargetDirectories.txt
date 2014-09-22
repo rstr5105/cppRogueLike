@@ -1,1 +1,0 @@
-/home/irinix/Code/C++/rogueLike/rogueLike/src/CMakeFiles/RogueLike.dir
